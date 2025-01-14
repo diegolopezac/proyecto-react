@@ -1,0 +1,43 @@
+first-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Espaciado uniforme entre elementos */
+  flex-wrap: wrap; /* Permite que los cuadros bajen a otra línea si no caben */
+  gap: 20px; /* Espaciado entre cuadros */
+  padding: 20px;
+  }
+  
+  .feature {
+    flex: 0 0 200px; /* Cada cuadro tendrá un ancho fijo de 200px */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    
+    height: 500px; /* Establece una altura fija para todas las imágenes */
+    width: 500px;
+    margin: auto;
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    
+  }
+  
+  h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  d{
+    text-align: center;
+  }
+

@@ -1,0 +1,248 @@
+/* Estilos generales para la tabla */
+.contaminacion-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Estilo para las celdas de la tabla */
+.contaminacion-table th, .contaminacion-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+/* Estilo para los encabezados */
+.contaminacion-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Alternar colores de filas */
+.contaminacion-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.contaminacion-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Resaltar al pasar el mouse */
+.contaminacion-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+/**division/
+
+/* Estilo general de la sección */
+.testimonios-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.testimonios-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Contenedor para los testimonios */
+.testimonios-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Cada tarjeta de testimonio */
+.testimonio {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+}
+
+/* Imagen del cliente */
+.testimonio-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Texto del testimonio */
+.testimonio blockquote {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Nombre del cliente */
+.testimonio p {
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+
+/*  3  */
+
+.about-section {
+  background-color: #f4f8f9;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #006b3f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1rem;
+  margin: 20px 0;
+  text-align: justify;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-section p:first-child {
+  font-weight: bold;
+}
+
+.about-section p:last-child {
+  font-style: italic;
+}
+
+.about-section p::before {
+  content: "🌍";
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.about-section p::after {
+  content: "🌱";
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.about-section .highlight {
+  background-color: #d4edda;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+/*  formulario */
+.form-section {
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h3 {
+  font-size: 1.5rem;
+  color: #006b3f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #006b3f;
+  outline: none;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+button {
+  background-color: #006b3f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #004d2f;
+}
+
+button:focus {
+  outline: none;
+}
+
+form .form-section {
+  padding: 15px;
+  background-color: #e6f7e6;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+form .form-section h4 {
+  color: #004d2f;
+}
+
+form .form-section input,
+form .form-section textarea {
+  border: 1px solid #b3e0b3;
+}
+
+form .form-section input:focus,
+form .form-section textarea:focus {
+  border-color: #006b3f;
+}
